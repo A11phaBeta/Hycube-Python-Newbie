@@ -1,0 +1,124 @@
+#논리 연산자
+
+# True (1), False (0)
+
+# 그리고 (And) : and
+# 또는 (Or) : or
+# 아니다 (Not) : not
+
+#비교 연산자
+
+# 같다 : ==
+# 같지 않다 : not(A == B)
+# A가 B보다 크거나 같다 : A >= B
+# A가 B보다 크다 : A > B
+
+#논리연산자
+
+# N = 2, M = 4
+# (N % 2 == 0) and (M % 2 == 0)
+
+#조건문
+
+# if(Logical Expression):
+#   print("hello")
+# elif(Logical Expression):
+#   print("hello 2")
+# ... (elif는 여러개가 와도 상관없다)
+# else:
+#   print("hello n")
+
+#n, m = 2, 3
+
+
+#if ((n%2 == 0) and (m%2 == 0)):
+#    print("N과 M은 2의 배수입니다.")
+
+#else :
+#    print("N과 M 중 하나 이상이 2의 배수가 아닙니다.")
+
+
+# 묵 : 0, 찌 : 1, 빠 : 2
+
+#player1, player2 = 2, 2
+
+#if(player1 == 0):
+#    if(player2 == 0):
+#        print("비겼습니다.")
+#    elif(player2 == 1):
+#        print("player1이 승리하였습니다.")
+#    else:
+#        print("player2가 승리하였습니다.")
+
+#elif(player1 == 1):
+#    if(player2 == 0):
+#        print("player2가 승리하였습니다.")
+#    elif(player2 == 1):
+#        print("비겼습니다.")
+#    else:
+#        print("player1이 승리하였습니다.")
+
+#else:
+#    if(player2 == 0):
+#        print("player1가 승리하였습니다.")
+#    elif(player2 == 1):
+#        print("player2가 승리하였습니다.")
+#    else:
+#        print("비겼습니다.")
+
+
+# 반복문
+
+# while 반복문
+
+#n = 1
+#while(n <= 10):
+#    print(n)
+#    n = n + 1
+
+
+# for 반복문
+
+#sumVal = 0
+#for i in range(1, 11, 2):
+#    sumVal = sumVal + i
+
+#print(sumVal)
+
+# 점화식
+
+# (n * (n+1)) / 2
+#print((10 * (10 + 1)) // 2)
+
+# 별찍기
+
+
+# n = 5
+# *
+# **
+# ***
+# ****
+# *****
+
+#n = 5
+#for i in range(1, n+1):
+
+#    for j in range(1, i+1):
+#        print("*", end="")
+
+#    print()
+
+
+
+# [숙제] 별찍기
+
+# n = 5
+
+#     *
+#    ***
+#   *****
+#  *******
+# *********
+
+
+
