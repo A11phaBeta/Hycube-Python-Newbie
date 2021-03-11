@@ -1,0 +1,89 @@
+# - 함수의 정의와 호출
+
+#def sumFunc(n,m):
+#    
+#    return n+m
+
+#def A():
+#    n = 5
+#    m = 6
+#    print(sumFunc(n,m))
+
+#A()
+
+# - 재귀 함수 (Top-down / Bottom-up)
+# n! = n * (n-1) * ... * 2 * 1
+
+#def fact(n):
+#    factVal = 1
+
+#    for i in range(1, n+1):
+#        factVal = factVal * i
+
+#    return factVal
+
+#print(fact(5))
+
+#def fact(n):
+#    if n == 1:
+#        return 1
+#
+#    else :
+#        return n*fact(n-1)
+
+#print(fact(5))
+
+#def fact(n, ans):
+#    if n == 1:
+#        return ans
+
+#    else :
+#        return fact(n-1, ans*n)
+
+#print(fact(5, 1))
+                                      
+
+# - [실습 1] 덧셈 / 뺄셈 / 곱셈 함수 정의와 호출
+def sumFunc(n,m):
+    return n + m
+
+def minusFunc(n,m):
+    return n - m
+
+def mulFunc(n,m):
+    return n * m
+
+# - [실습 2] N 팩토리얼 구하기 (일반 함수)
+
+# - [실습 3] 피보나치 수열의 N번째 항 구하기 (일반 함수)
+
+# Fn = F(n-1) + F(n-2) (단, n >= 3 F1=F2=1)
+
+# F1 = 1, F2 = 1, F3 = 2, F4 = 3, F5 = 5
+
+#def fibonacci(n):
+
+#    v1 = 1
+#    v2 = 1
+#    v3 = v1 + v2
+
+#    for i in range(3, n+1):
+
+#        v3 = v1 + v2
+
+#        v2 = v1
+
+#        v1 = v3
+
+#    return v3
+
+#print(fibonacci(5))
+
+def fibonacci(n):
+    if n <= 2 :
+        return 1
+
+    else :
+        return fibonacci(n-1) + fibonacci(n-2)
+
+print(fibonacci(5))
